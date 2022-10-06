@@ -7,6 +7,12 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
+sklearn = "^0.0"
+pandas = "^1.5.0"
+sagemaker = {extras = ["local"], version = "^2.109.0"}
+ipython = "^8.5.0"
+xgboost = "^1.6.2"
+lightgbm = "^3.3.2"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.971"
